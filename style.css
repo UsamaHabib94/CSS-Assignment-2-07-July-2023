@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.header {
+position: relative;
+background-color: black;
+}
+
+.nav {
+    position: relative;
+    top: 15px;
+    left: 450px;
+}
+
+.nav li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
