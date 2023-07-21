@@ -2,20 +2,62 @@ body {
     background-color: rgb(29, 29, 29);
 }
 
-.header {
-position: relative;
-background-color: black;
-}
+/* .header{
+    background-color: black;
+    margin: 0px;
+} */
 
 .nav {
+    background-color: black;
     position: relative;
-    top: 15px;
-    left: 450px;
+    width: auto;
+    height: 100px;
+    /* top: 0px;
+    left: 0px; */
+    margin: 0px;
 }
 
-.nav li {
+.logo {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+.nav>ul {
+    top: 0px;
+    position: absolute;
+    left: 400px;
+}
+.nav>ul>li {
     color: white;
     display: inline-block;
     padding: 10px;
     margin: 10px;
 }
+
+.order {
+    position: absolute;
+    width: 100px;
+    background-color: red;
+    right: 200px;
+    top: 20px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.order>p {
+color: white;
+    text-align: right;
+}
+
+.order>img {
+    width: 20px;
+    color: white;
+        text-align: right;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
