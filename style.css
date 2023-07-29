@@ -61,3 +61,41 @@ color: white;
         left: 15px;
         top: 15px;
     }
+
+
+    .welcome {
+        text-align: center;
+        color: white;
+    }
+
+.welcome>h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.welcome>p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.boxes>li {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#box2 {
+    margin: 3px;
+}
+
+.order2>li {
+display: inline-block;
+border: 1px solid white;
+width: 100px;
+    border-color: white;
+    padding: 10px;
+    margin: 0 100px 0 100px;
+    border-radius: 50px;
+}
