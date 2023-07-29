@@ -29,6 +29,7 @@ body {
     position: absolute;
     left: 400px;
 }
+
 .nav>ul>li {
     color: white;
     display: inline-block;
@@ -49,24 +50,24 @@ body {
 }
 
 .order>p {
-color: white;
+    color: white;
     text-align: right;
 }
 
 .order>img {
     width: 20px;
     color: white;
-        text-align: right;
-        position: absolute;
-        left: 15px;
-        top: 15px;
-    }
+    text-align: right;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
 
 
-    .welcome {
-        text-align: center;
-        color: white;
-    }
+.welcome {
+    text-align: center;
+    color: white;
+}
 
 .welcome>h1 {
     text-align: center;
@@ -91,9 +92,9 @@ color: white;
 }
 
 .order2>li {
-display: inline-block;
-border: 1px solid white;
-width: 100px;
+    display: inline-block;
+    border: 1px solid white;
+    width: 100px;
     border-color: white;
     padding: 10px;
     margin: 0 100px 0 100px;
