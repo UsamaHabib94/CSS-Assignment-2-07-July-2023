@@ -13,14 +13,18 @@ body {
     position: relative;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 
 .logo {
-    width: 150px;
+    /* width: auto; */
     position: absolute;
-    left: 100px;
+    /* left: 20%; */
     top: 13px;
+    order: 1;
+    margin-right: 1000px;
 }
 
 .menu {
@@ -28,16 +32,13 @@ body {
     position: absolute;
     width: auto;
     height: 80px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
     vertical-align: middle;
     margin-top: 10px;
+    /* left: 35%; */
+    order: 2;
+    margin-left: 150px;
 }
-
-/* .menu>ul {
-    top: 0px;
-    position: absolute;
-    left: 400px;
-} */
 
 .menu>ul>li {
     color: white;
@@ -48,14 +49,13 @@ body {
 }
 
 .order {
-    /* background-color: aqua; */
     position: absolute;
     margin-top: 25px;
     margin-left: 1075px;
+    order: 3;
 }
 
 .order>button {
-    /* position: absolute; */
     color: white;
     background-color: red;
     padding: 7px 10px 7px 10px;
@@ -67,17 +67,22 @@ body {
 }
 
 .fa-arrow-right {
-    /* right: 1px; */
     font-size: 25px;
-    /* left: 1px;
-    top: 15px; */
     vertical-align: middle;
     padding-left: 20px;   
 }
 
-.slider>img {
-    width: 100% !important; 
+.Slider img {
+    width: 100%;
 }
+
+/* .slider>img {
+    /* width: inherit;
+    height: auto; */
+    /* display: block; */
+    /* width: 1000px;
+
+} */
 
 .welcome {
     text-align: center;
@@ -97,15 +102,20 @@ body {
     font-size: 20px;
 }
 
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
 .boxes li {
     margin: 10px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 10px;
 }
 
 .boxes div {
     margin: 10px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 10px;
 }
 
@@ -127,6 +137,7 @@ body {
     background-color: black;
     position: relative;
     width: 100%;
+    justify-content: center;
 }
 
 .section3>h1 {
@@ -161,27 +172,17 @@ body {
 .islamabad-french {
     color: white;
     display: flex;
+    justify-content: center;
 }
 
-
-.isb-pic {
-    display: inline-block;
-    margin: auto auto;
+.city-pic {
     z-index: 2;
-    width: fit-content;
+    width: auto;
+    margin: 50px;
 }
 
-.citydetails {
-    text-align: left;
-    margin: 10px auto;
-}
-
-
-#salt {
-    font-family:lobster;
-    color: white;
-    font-size: 30px;
-    
+.city-details {
+    margin: 50px;
 }
 
 .city {
@@ -190,8 +191,14 @@ body {
     object-fit: contain;
 }
 
+#salt {
+    font-family:lobster;
+    color: white;
+    font-size: 30px;   
+}
 
-.direction {
+
+.direction, .box-order {
     background-color:transparent;
     /* position: absolute; */
     /* margin-top: 25px;
