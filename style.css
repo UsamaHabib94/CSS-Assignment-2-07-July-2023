@@ -169,20 +169,21 @@ body {
     width: 400px;
 }
 
-.islamabad-french {
+.city-french {
     color: white;
     display: flex;
     justify-content: center;
 }
 
-.city-pic {
+.city-pic>img {
     z-index: 2;
-    width: auto;
-    margin: 50px;
+    width: 600px;
+    margin: 50px 100px;
+
 }
 
 .city-details {
-    margin: 50px;
+    margin: 75px 100px 50px 300px;
 }
 
 .city {
@@ -205,7 +206,7 @@ body {
     margin-left: 1075px; */
     /* position: absolute; */
     color: white;
-    padding: 7px 10px 7px 10px;
+    padding: 12px 10px 12px 10px;
     font-size: 12px;
     font-weight: 500;
     border-radius: 50px;
@@ -214,3 +215,67 @@ body {
     border-color: silver;
 }
 
+.city-pic2>img {
+    z-index: 2;
+    width: 600px;
+    margin: 50px 150px 50px 1px;
+}
+
+
+.city-details2 {
+    margin: 100px 100px 50px 10px;
+}
+
+
+.section4 {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.section4>h1 {
+        font-family:lobster;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        padding-top: 25px;
+        /* line-height: 10px; */
+
+}
+
+.section4>h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 5px;
+}
+
+
+.bgimg2 {
+    position: absolute;
+    left:50px;
+    top: 32px;
+}
+
+.bgimg2 img {
+    width: 400px;
+}
+
+.exp-city {
+    width: 100%;
+    color: white;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.exp-city-city {
+    width: 350px;
+    text-align: center;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.exp-city-details {
+    margin-top: 30px;
+}
